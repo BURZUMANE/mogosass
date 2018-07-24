@@ -1,0 +1,26 @@
+{
+  "name": "gulpsample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BURZUMANE/gulping.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BURZUMANE/gulping/issues"
+  },
+  "homepage": "https://github.com/BURZUMANE/gulping#readme",
+  "description": ""
+}
