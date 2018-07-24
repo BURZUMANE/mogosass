@@ -1,0 +1,45 @@
+/*fonts*/
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  src: url("fonts/Montserrat/Montserrat-Regular.ttf") format("ttf"); }
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  src: url("fonts/Montserrat/Montserrat-Bold.ttf") format("ttf"); }
+
+@font-face {
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  src: url("fonts/Kaushan_Script/KaushanScript-Regular.ttf") format("ttf"); }
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  src: url("fonts/Roboto/Roboto-Regular.ttf"); }
+
+.small-title {
+  text-align: center; }
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 1920px;
+  height: 1000px;
+  background: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 90%), url("../img/eagle.jpg") no-repeat center; }
+  .header__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 551px;
+    list-style: none; }
+  .header__menu-link {
+    padding: 7px;
+    text-decoration: none;
+    color: #ffffff; }
+    .header__menu-link:hover {
+      color: #fce38a;
+      text-decoration: none;
+      border-bottom: 3px solid #fce38a; }
