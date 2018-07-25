@@ -28,18 +28,41 @@
   margin: 0 auto;
   padding-top: 20px;
   width: 1920px;
-  height: 1000px;
   background: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 90%), url("../img/eagle.jpg") no-repeat center; }
-  .header__menu {
-    display: flex;
-    justify-content: space-between;
-    width: 551px;
-    list-style: none; }
-  .header__menu-link {
-    padding: 7px;
-    text-decoration: none;
-    color: #ffffff; }
-    .header__menu-link:hover {
-      color: #fce38a;
-      text-decoration: none;
-      border-bottom: 3px solid #fce38a; }
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1100px; }
+
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+  width: 551px;
+  list-style: none; }
+
+.item__link {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+.smtitle {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Kaushan Script";
+  font-size: 72px;
+  font-weight: 400; }
+
+.lgtitle {
+  width: 802px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 140px;
+  text-transform: uppercase; }
