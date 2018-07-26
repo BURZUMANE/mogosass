@@ -45,9 +45,7 @@
 
 .content {
   padding-top: 160px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+  display: flex; }
 
 .item__link {
   text-decoration: none;
@@ -58,6 +56,7 @@
   text-transform: uppercase;
   padding-bottom: 12px; }
   .item__link:hover {
+    text-decoration: none;
     color: #fce38a;
     border-bottom: 3px solid #fce38a; }
 
@@ -119,7 +118,10 @@
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 400;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  opacity: 0.5; }
+  .slider-item__link:hover {
+    opacity: 1; }
 
 .slider-item__span {
   /* Style for "03 About" */
